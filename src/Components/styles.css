@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;500&family=Libre+Baskerville&display=swap");
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic-ext,latin-ext);
+
+.header-container {
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 1px solid #c00;
+  opacity: 80%;
+  color: white;
+  font-family: "Jost";
+}
+
+.body-container {
+  font-size: 1rem;
+  font-family: "Libre Baskerville";
+  line-height: 2rem;
+  color: #232323;
+}
+
+.body-container h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.body-container a {
+  text-decoration: none;
+  color: #c00;
+  border-bottom: 1px dotted #c00;
+}
+
+.body-container a:hover {
+  border-bottom: 1px dotted #333;
+  color: #333;
+}
+
+.small-image {
+  float: left;
+  width: 60%;
+  margin-right: 5%;
+}
+
+.small-image2 {
+  float: left;
+  width: 45%;
+  margin-right: 2%;
+}
+
+.commentPhoto {
+  width: 60%;
+}
+
+.avatar-image {
+  border-radius: 50%;
+  width: 70px;
+}
+
+@media only screen and (max-width: 400px) {
+  .small-image {
+    float: none;
+    width: 100%;
+  }
+  .small-image2 {
+    float: none;
+    width: 100%;
+  }
+
+  .commentPhoto {
+    width: 80%;
+  }
+  .full-heigth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
